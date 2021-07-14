@@ -35,8 +35,8 @@ function [ModelKPDistances, OptimParamCombos, Misfit, sum_of_misfit] = RunKPMode
 %   distance for each knickpoint (although this can be extracted from x, y,
 %   data.
 
-K = logspace(log10(Kmin), log10(Kmax), 100); %Generate a log spaced array of K values to test, based on input
-Tcap = linspace(Tcap_min, Tcap_max, 26); %Generate a linearly spaced array of capture age (Tcap) values to test, based on input
+K = logspace(log10(Kmin), log10(Kmax), 150); %Generate a log spaced array of K values to test, based on input
+Tcap = linspace(Tcap_min, Tcap_max, 19); %Generate a linearly spaced array of capture age (Tcap) values to test, based on input
 
 % Pre-allocate size of output matrix KP_distance
 ModelKPDistances = zeros(length(StreamSgmnts), length(K) * length(Tcap));
