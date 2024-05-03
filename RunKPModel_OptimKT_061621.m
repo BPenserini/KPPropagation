@@ -28,7 +28,8 @@ function [ModelKPDistances, OptimParamCombos, Misfit, sum_of_misfit] = RunKPMode
 %
 %   OptimParamCombos - Cell array of best fitting K (1st column), T_cap (2nd column) pairs for the ranges
 %   supplied as input. Should also include the sum of misfit for each
-%   best fitting combination.
+%   best fitting combination (column 3) and the index of that misfit value
+%   in the sum_of_misfit array (column 4).
 
 %   Will want to have a function that can then generate an output file with
 %   x, y, and stream number of modeled knickpoints and also the propagated
