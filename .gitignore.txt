@@ -1,6 +1,6 @@
-OldCode/
-Zhada\ KP\ Propagation/
-ZhadaTestFiles/
-ModelOutput/
-ObservedKPs/
+./OldCode/
+./Zhada\ KP\ Propagation/
+./ZhadaTestFiles/
+./ModelOutput/
+./ObservedKPs/
 
