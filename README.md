@@ -1,6 +1,6 @@
 # Knickpoint Propagation Model
 
-These model codes simulate transient knickpoint propagation.
+These model codes are used to simulate transient knickpoint propagation.
 
 VectorExtractor: A function that takes in a TopoToolbox2 STREAMobj (i.e., georeferenced polyline) of a single stream channel and a TopoToolbox2 GRIDobj (i.e., georeferenced raster) of flow accumulation and outputs Matlab arrays of downstream length and upstream area values along the stream path defined by the input STREAMobj.
 
